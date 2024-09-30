@@ -52,8 +52,8 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                              &kp N6  &kp N7    &kp N8         &kp N9   &kp N0         &kp GRAVE
-&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp G                               &kp J   &kp L     &kp U          &kp Y    &kp SEMICOLON  &kp MINUS
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                              &kp N6  &kp N7    &kp N8         &kp N9   &kp N0         &kp MINUS
+&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp G                               &kp J   &kp L     &kp U          &kp Y    &kp SEMICOLON  &kp EQUAL
 &kp LCTRL  &kp A   &kp R   &kp S     &kp T     &kp D                               &kp H   &kp N     &kp E          &kp I    &kp O          &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B   &kp DELETE       &kp RET    &kp K   &kp M     &kp COMMA      &kp DOT  &kp FSLH       &kp RSHFT
                            &kp LALT  &kp LGUI  &mo 1   &kp BACKSPACE    &kp SPACE  &mo 2   &kp RGUI  &kp RIGHT_ALT
@@ -73,8 +73,8 @@
             display-name = "Lower";
             bindings = <
 &copy       &paste             &cut             &trans   &trans   &undo                                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4     &bt BT_CLR
-&kp F1      &kp F2             &kp F3           &kp F4   &kp F5   &kp F6                               &kp N7        &kp N8        &kp N9        &kp MINUS      &kp PLUS         &trans
-&kp F7      &kp F8             &kp F9           &kp F10  &kp F11  &kp F12                              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp TILDE
+&kp F1      &kp F2             &kp F3           &kp F4   &kp F5   &kp F6                               &kp N7        &kp N8        &kp N9        &kp MINUS      &kp PLUS         &kp EQUAL
+&kp F7      &kp F8             &kp F9           &kp F10  &kp F11  &kp F12                              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp GRAVE
 &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans   &trans   &trans   &kp CAPS    &kp KP_NUMLOCK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LBRC       &kp RBRC         &kp PIPE
                                                 &trans   &trans   &trans   &trans      &trans          &trans        &kp N0        &trans
             >;
